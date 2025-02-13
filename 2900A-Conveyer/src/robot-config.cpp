@@ -126,7 +126,7 @@ int rc_auto_loop_function_Controller1() {
         ladyBrown.stop(hold);
       }
       if (Controller1.ButtonA.PRESSED) {
-        ladyBrown.spinToPosition(10, degrees, true);
+        ladyBrown.spinToPosition(35, degrees, true);
       } else if (Controller1.ButtonB.PRESSED) {
         ladyBrown.spinToPosition(145, degrees, false);
       }
